@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .footer-container{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  }
+  .footer-container h1{
+    font-size: 20px;
+  }
+  .btns{
+    display: inline-block; 
+        padding: 30px 40px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid white;
+        color:black;
+        background-color: white;
+        border-radius: 5px;
+        margin-right: 30px;
+        margin-left: 600px;
+  }
+  .btns:hover{
+    background-color: grey;
+    color: white;
+  }
+  
+  .btna{
+    display: inline-block;
+        padding: 30px 40px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid white;
+        color:black;
+        background-color: white;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-top: 30px;
+    
+  }
+  .btna:hover{
+    background-color: grey;
+    color: white;
+  }
+  .heading h1{
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+  body{
+    background-color: white;
+  }
+  /*ngologin */
+  .login-container {
+   
+    
+    align-items: center;
+    justify-content: center;
+    height: 80vh;  
+    background-color: aquamarine;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    margin-left:300px ;
+    margin-top: 60px;
+    
+  }
+  
+  form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adjust the gap between form elements */
+    margin-top: 90px;
+   
+  }
+  .formngo{
+    position: relative;
+    top:50px;
+  }
+
+  /*Ngonavbar.js*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 70px;
+   /* Adjust as needed to create space between elements */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end; /* Elements will be placed on the right side of the container */
+  align-items: center;
+}
+
+.welcome {
+  color: white;
+  font-weight: bold;
+}
+/*body.js*/
+.bodybox {
+  color: rgb(99, 113, 109);
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  position: relative;
+  right: 300px;
+  height: 300px;
+ 
+}
+.btns{
+  width: 180px;
+}
+/* Bodynavbar.js*/
+.col{
+  position: relative;
+  left: 400px;
+  top:-12px;
+  max-width: 150px;
+  
+ 
+}
+.nav-link {
+    
+    width: 110px;
+   /* Adjust as needed to create space between elements */
+  }
+
+.bodyhead{
+   position:relative;
+   right: 350px;
+   top: 10px;
+}
+/*home.js*/
+.btn-btn-pr{
+    display: inline-block; 
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color:black;
+        background-color: rgb(230, 139, 139);    
+  }
+  .btn-btn-pr:hover{
+    background-color: grey;
+    color: white;
+  }
+  .btn-btn-success{
+    display: inline-block; 
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color:black;
+        background-color: rgb(230, 139, 139);
+  }
+  .btn-btn-success:hover{
+    background-color: grey;
+    color: white;
+  }
+  
+  /*Resnavbar*/
+
+  .container1{
+    position:relative;
+    right: 350px;
+    top: 14px;
+  }
+  .col2{
+    position: relative;
+    left: 400px;
+    top:-6px;
+    max-width: 150px;
+  }
+  .col1{
+    position: relative;
+    left:1200px;
+    top:-31px;
+    align-items: center;
+  }
+  .mainRes{
+   margin:auto;
+  }
+  /* DonationForm*/
+  .donation-form-container {
+    background-color: #add8e6; /* Light blue background color */
+    color: #000; /* Black text color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .donation-form-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .donation-form-container input,
+  .donation-form-container textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .donation-form-container button {
+    background-color: #000; /* Black button background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }  
+  
+.donation-form-container button:hover {
+  background-color: #021062; /* Darker background color on hover */
+}
+
+/*ngo register*/
+
+.ngo-registration-container {
+  background-color: #d3ffd3; /* Light green background color */
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.ngo-registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ngo-registration-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ngo-registration-container label {
+  margin-bottom: 8px;
+}
+
+.ngo-registration-container input {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.ngo-registration-container button {
+  background-color: #000; /* Black button background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ngo-registration-container button:hover {
+  background-color: #056b7f; /* Darker background color on hover */
+}
+/* Ngonavbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row1{
+  display: flex;
+  align-items: center;
+
+}
+.coll{
+  position:relative;
+  left:500px;
+}
+  /*Footer.js*/
+.mainfooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-section, .follow-section {
+  flex-basis: 45%;
+}
+
+h2, h3 {
+  color: white;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust the size as needed */
+  margin-right: 10px;
+}
+
+
+
+
+
+

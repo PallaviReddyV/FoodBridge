@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Welcome to the Market App</h1>
+
+    <div id="list-product">
+        <h2>List a Product</h2>
+        <form id="product-form">
+            <input type="text" id="name" placeholder="Product Name" required><br>
+            <input type="number" id="price" placeholder="Price Per Unit" required><br>
+            <input type="number" id="quantity" placeholder="Quantity" required><br>
+            <input type="text" id="farmer_name" placeholder="Farmer's Name" required><br>
+            <input type="text" id="bank_account" placeholder="Farmer's Bank Account" required><br>
+            <input type="text" id="ifsc" placeholder="Farmer's IFSC" required><br>
+            <input type="text" id="upi" placeholder="Farmer's UPI" required><br>
+            <button type="submit">Add Product</button>
+        </form>
+    </div>
+
+    <div id="product-list">
+        <h2>Available Products</h2>
+        <button onclick="fetchProducts()">Refresh Products</button>
+        <ul id="products"></ul>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
